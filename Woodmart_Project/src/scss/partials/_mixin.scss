@@ -1,0 +1,39 @@
+@mixin Text (
+    $f_size:null,
+    $text_d:null,
+    $color:null, 
+    $font_w:null,
+    $text_a:null,
+    $margin:null,
+    $padding:null,
+){
+    font-size: $f_size;
+    text-decoration: $text_d;
+    color: $color;
+    font-weight: $font_w;
+    text-align: $text_a;
+    margin: $margin;
+    padding: $padding
+}
+
+@mixin left_right(
+    $height:null,
+    $margin:null,
+    $display:null,
+    $flex_d:null,
+    $aligin_items:null,
+    $text_aligin:null,
+    $justify_content:null,
+    $gap:null,
+
+){
+    height:$height;
+    margin:$margin;
+    display: $display;
+    flex-direction: $flex_d;
+    align-items: $aligin_items;
+    text-align: $text_aligin;
+    justify-content: $justify_content;
+    gap: $gap;
+
+}
